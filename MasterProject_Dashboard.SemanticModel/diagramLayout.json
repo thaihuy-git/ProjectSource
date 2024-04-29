@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 54.400001525878906,
+        "y": 6.4000000953674316
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 408.35019727540919,
+            "y": 13.971964150164467
+          },
+          "nodeIndex": "Country",
+          "nodeLineageTag": "e2911aa8-6414-4013-b1a4-ed19e18777b4",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 51.860782643750667,
+            "y": 542.40207817064345
+          },
+          "nodeIndex": "Experience_Level",
+          "nodeLineageTag": "0e9bab8c-723b-4aa8-9fe4-7b3b2a14d84c",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 44.148085477404379,
+            "y": -10
+          },
+          "nodeIndex": "Job_Category",
+          "nodeLineageTag": "7905a2ac-5523-4939-b675-e039a6faa31f",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 449.03575014617741,
+            "y": 542.41362032915708
+          },
+          "nodeIndex": "Job_Duration",
+          "nodeLineageTag": "00ceabcd-78af-49e3-86a0-64ca6261e07b",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 294.09821209623442,
+            "y": 192.2038770135656
+          },
+          "nodeIndex": "Job_Post",
+          "nodeLineageTag": "ec7758dc-ca94-43e4-971f-fcee761a9d75",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 10,
+            "y": 260.89572551822977
+          },
+          "nodeIndex": "Skill",
+          "nodeLineageTag": "a201d81b-7fec-423a-be71-96b8207751e6",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 578.34539970942365,
+            "y": 262.68968034659451
+          },
+          "nodeIndex": "Working_Hour",
+          "nodeLineageTag": "783d89ef-3168-4357-961e-356b3a4f3ee3",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 660.54539665766583,
+            "y": 29.206810164578542
+          },
+          "nodeIndex": "Calendar",
+          "nodeLineageTag": "62af79d9-4117-4eae-a704-c3cb35e32672",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 7
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

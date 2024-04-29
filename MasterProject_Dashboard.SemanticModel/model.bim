@@ -1,0 +1,1437 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.128.952.0 (24.04)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Country\",\"Experience_Level\",\"Job_Duration\",\"Job_Category\",\"Job_Post\",\"Skill\",\"Working_Hour\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "7d290c69-d337-42e7-b7fd-b50e9f6c4852",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "CountryISOCode",
+        "fromTable": "Job_Post",
+        "toColumn": "CountryISOCode",
+        "toTable": "Country"
+      },
+      {
+        "name": "98446574-64ff-44d8-b4b1-9bc9951103a5",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "ExperienceLevelID",
+        "fromTable": "Job_Post",
+        "toColumn": "ExperienceLevelID",
+        "toTable": "Experience_Level"
+      },
+      {
+        "name": "cfb08a29-4813-4fb6-8dd3-d07d1ee563b4",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "JobDurationID",
+        "fromTable": "Job_Post",
+        "toColumn": "JobDurationID",
+        "toTable": "Job_Duration"
+      },
+      {
+        "name": "7f15ea95-2524-4871-85a7-08b8183d32f5",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "JobCategoryID",
+        "fromTable": "Job_Post",
+        "toColumn": "JobCategoryID",
+        "toTable": "Job_Category"
+      },
+      {
+        "name": "ce5a4435-3d89-4d6d-82ed-2cb8f9dfab52",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "Skill01",
+        "fromTable": "Job_Post",
+        "toColumn": "SkillID",
+        "toTable": "Skill"
+      },
+      {
+        "name": "c037335d-64c9-4e76-af0d-d34c8b7725d2",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "Skill02",
+        "fromTable": "Job_Post",
+        "isActive": false,
+        "toColumn": "SkillID",
+        "toTable": "Skill"
+      },
+      {
+        "name": "ff553e14-2787-446f-8b25-4d1bc1f0502e",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "Skill03",
+        "fromTable": "Job_Post",
+        "isActive": false,
+        "toColumn": "SkillID",
+        "toTable": "Skill"
+      },
+      {
+        "name": "d9ace026-076b-4f83-a2ea-2a7836c9c32f",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "Skill04",
+        "fromTable": "Job_Post",
+        "isActive": false,
+        "toColumn": "SkillID",
+        "toTable": "Skill"
+      },
+      {
+        "name": "002ef054-96b0-4a9c-ad14-c0dddafd4eca",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "Skill05",
+        "fromTable": "Job_Post",
+        "isActive": false,
+        "toColumn": "SkillID",
+        "toTable": "Skill"
+      },
+      {
+        "name": "33e49f58-b39c-407d-bc50-71eca559a7ae",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "Skill06",
+        "fromTable": "Job_Post",
+        "isActive": false,
+        "toColumn": "SkillID",
+        "toTable": "Skill"
+      },
+      {
+        "name": "9a4f1816-88d3-4a08-b02a-6141120037ac",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "Skill07",
+        "fromTable": "Job_Post",
+        "isActive": false,
+        "toColumn": "SkillID",
+        "toTable": "Skill"
+      },
+      {
+        "name": "ad124347-b70f-4d3b-8eee-88af19809e36",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "Skill08",
+        "fromTable": "Job_Post",
+        "isActive": false,
+        "toColumn": "SkillID",
+        "toTable": "Skill"
+      },
+      {
+        "name": "9c1852fd-a59a-4c4f-a8ea-b56fb7d1deba",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "Skill09",
+        "fromTable": "Job_Post",
+        "isActive": false,
+        "toColumn": "SkillID",
+        "toTable": "Skill"
+      },
+      {
+        "name": "eed2c76f-104f-489a-99a5-2f93c0582afb",
+        "annotations": [
+          {
+            "name": "PBI_IsFromSource",
+            "value": "FS"
+          }
+        ],
+        "fromColumn": "WorkingHourID",
+        "fromTable": "Job_Post",
+        "toColumn": "WorkingHourID",
+        "toTable": "Working_Hour"
+      },
+      {
+        "name": "6f021762-8f33-4fa7-b7d4-87ba6a8d2b1e",
+        "fromColumn": "PostedDate",
+        "fromTable": "Job_Post",
+        "toColumn": "Date",
+        "toTable": "Calendar"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Country",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "CountryISOCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "96e4d5f8-bc45-466b-941e-f8ce72aab08f",
+            "sourceColumn": "CountryISOCode",
+            "sourceProviderType": "varchar(3)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CountryName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "3cfdbb01-eaac-4aca-a12f-4f30cac5d41d",
+            "sourceColumn": "CountryName",
+            "sourceProviderType": "nvarchar(250)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e2911aa8-6414-4013-b1a4-ed19e18777b4",
+        "partitions": [
+          {
+            "name": "Country",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    dbo_Country = Source{[Schema=\"dbo\",Item=\"Country\"]}[Data]",
+                "in",
+                "    dbo_Country"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Experience_Level",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ExperienceLevelID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "9f585d52-44a2-48b0-b136-0149fc45de8c",
+            "sourceColumn": "ExperienceLevelID",
+            "sourceProviderType": "varchar(10)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ExperienceLevelName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "bdbfe75d-31ee-4d11-ada4-41aab9308f69",
+            "sourceColumn": "ExperienceLevelName",
+            "sourceProviderType": "nvarchar(100)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0e9bab8c-723b-4aa8-9fe4-7b3b2a14d84c",
+        "partitions": [
+          {
+            "name": "Experience_Level",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    dbo_Experience_Level = Source{[Schema=\"dbo\",Item=\"Experience_Level\"]}[Data]",
+                "in",
+                "    dbo_Experience_Level"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Job_Duration",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "JobDurationID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "38f08451-69d6-43ad-9536-1a6cede02823",
+            "sourceColumn": "JobDurationID",
+            "sourceProviderType": "varchar(10)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "JobDurationName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "90ea1436-9e4a-459a-9c6d-f998262b3a75",
+            "sourceColumn": "JobDurationName",
+            "sourceProviderType": "nvarchar(250)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "00ceabcd-78af-49e3-86a0-64ca6261e07b",
+        "partitions": [
+          {
+            "name": "Job_Duration",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    dbo_Job_Duration = Source{[Schema=\"dbo\",Item=\"Job_Duration\"]}[Data]",
+                "in",
+                "    dbo_Job_Duration"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Job_Category",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "JobCategoryID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "6befbcab-71d7-41de-90e0-47e9fa5e7917",
+            "sourceColumn": "JobCategoryID",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "JobCateName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "953181cc-b837-4441-b812-39ab4e621bac",
+            "sourceColumn": "JobCateName",
+            "sourceProviderType": "nvarchar(100)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "KeywordList",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0609e51e-7a2b-40db-8fbb-c458e4ce9ffc",
+            "sourceColumn": "KeywordList",
+            "sourceProviderType": "nvarchar(2000)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "7905a2ac-5523-4939-b675-e039a6faa31f",
+        "partitions": [
+          {
+            "name": "Job_Category",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    dbo_Job_Category = Source{[Schema=\"dbo\",Item=\"Job_Category\"]}[Data]",
+                "in",
+                "    dbo_Job_Category"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Job_Post",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "JobPostID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "f2fb1014-6f96-4b62-87b8-bea5a2697df4",
+            "sourceColumn": "JobPostID",
+            "sourceProviderType": "int",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "JobTitle",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "05e39846-e4c4-407f-b2e6-e3f47303521a",
+            "sourceColumn": "JobTitle",
+            "sourceProviderType": "nvarchar(250)",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "ExperienceLevelID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "2d0964ad-9f21-40e1-8dc3-a3765a757774",
+            "sourceColumn": "ExperienceLevelID",
+            "sourceProviderType": "varchar(10)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SearchKeyword",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e809571b-a4a3-47a8-a3fd-9376fa812e53",
+            "sourceColumn": "SearchKeyword",
+            "sourceProviderType": "nvarchar(50)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PostedDate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "7fcd0f87-2f6b-4098-91bc-40fb287cc668",
+            "sourceColumn": "PostedDate",
+            "sourceProviderType": "datetime",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "JobDurationID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3c61df11-3722-4ed6-8792-3bb76ef91c39",
+            "sourceColumn": "JobDurationID",
+            "sourceProviderType": "varchar(10)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "WorkingHourID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "44228769-14ea-414f-b66c-ffeca481389c",
+            "sourceColumn": "WorkingHourID",
+            "sourceProviderType": "varchar(10)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "JobDescription",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fcb4eb99-e434-43e5-9cf1-dafe798178a7",
+            "sourceColumn": "JobDescription",
+            "sourceProviderType": "nvarchar(max)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Highlight",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a614a53c-d8b1-4c14-9b48-97e7c576c598",
+            "sourceColumn": "Highlight",
+            "sourceProviderType": "nvarchar(50)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "JobCategoryID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7821d23a-4647-409c-a5c1-efebf87e00fe",
+            "sourceColumn": "JobCategoryID",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Skill01",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3ebf03f1-c9db-4e20-a2a7-cf971156ac00",
+            "sourceColumn": "Skill01",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Skill02",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "919950f7-dc1d-4fe3-ac25-8d11f5c27744",
+            "sourceColumn": "Skill02",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Skill03",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "105cb1f3-da26-4eb4-a76d-84ec3416d51b",
+            "sourceColumn": "Skill03",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Skill04",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9d66f982-3155-4068-8f5f-cc79a535c0b3",
+            "sourceColumn": "Skill04",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Skill05",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "084c6300-167f-42f6-b1e8-2b187eeda956",
+            "sourceColumn": "Skill05",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Skill06",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c0b229ea-ca18-4cf4-bb21-74b689bcfd63",
+            "sourceColumn": "Skill06",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Skill07",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9d672640-d9db-4ed8-a656-eb7afb4ff09e",
+            "sourceColumn": "Skill07",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Skill08",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b0f07685-1f6d-412e-9a02-c08262629511",
+            "sourceColumn": "Skill08",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Skill09",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dda539e2-7806-4c1c-81b2-f8394c5fa7b1",
+            "sourceColumn": "Skill09",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "SkillSet",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "896ee585-9e4c-47f5-92b4-fabff3b25fda",
+            "sourceColumn": "SkillSet",
+            "sourceProviderType": "nvarchar(2000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ApplicantsNum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "925c223c-6d7d-4429-ad53-0392ddb681b9",
+            "sourceColumn": "ApplicantsNum",
+            "sourceProviderType": "nvarchar(100)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PaymentSituation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "33d81e01-dfba-4917-a348-98de1210bd97",
+            "sourceColumn": "PaymentSituation",
+            "sourceProviderType": "nvarchar(50)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EnterpriseClient",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "28a128a4-347b-42d0-8a3d-b853b8701574",
+            "sourceColumn": "EnterpriseClient",
+            "sourceProviderType": "nvarchar(50)",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "FreelancersNum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f5d278c2-f5ce-4d07-975b-690bc81912f5",
+            "sourceColumn": "FreelancersNum",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Spent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "588e18d7-0d19-45d1-b200-5427c504987a",
+            "sourceColumn": "Spent",
+            "sourceProviderType": "decimal(20, 2)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CountryISOCode",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "23dc5c00-f018-4d87-a1b7-4666ae9ea959",
+            "sourceColumn": "CountryISOCode",
+            "sourceProviderType": "varchar(3)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ConnectsNum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f1232a6f-dc60-434b-9fea-0a3ea12ae075",
+            "sourceColumn": "ConnectsNum",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "NewConnectsNum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "75b3eb38-4978-41e2-9fde-41b5a51c1bc5",
+            "sourceColumn": "NewConnectsNum",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Rating",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "71c50d7a-3d36-441c-9b67-cf0af2bbd04e",
+            "sourceColumn": "Rating",
+            "sourceProviderType": "float",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "FeedbackNum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e1b0b81e-0a19-4e26-a666-bd3f8c9c096c",
+            "sourceColumn": "FeedbackNum",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "IsTrueRating",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bfa6e67d-5861-48ba-8a54-15c47808216f",
+            "sourceColumn": "IsTrueRating",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PaymentType",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "58cb5029-c4ee-401d-896b-eb20d0c71c39",
+            "sourceColumn": "PaymentType",
+            "sourceProviderType": "nvarchar(50)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "JobCost",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "916c70f5-26df-49bf-8bf9-2f499d80fbf4",
+            "sourceColumn": "JobCost",
+            "sourceProviderType": "decimal(20, 2)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "HourlyStartRate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "000b2856-2856-495c-8476-d093ccec5df2",
+            "sourceColumn": "HourlyStartRate",
+            "sourceProviderType": "decimal(8, 2)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "HourlyEndRate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "8ea6381d-512a-47fc-b72e-271332d6c4e3",
+            "sourceColumn": "HourlyEndRate",
+            "sourceProviderType": "decimal(8, 2)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "JobPostTempID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2ea94149-fb9e-43c8-92f5-704bf380442f",
+            "sourceColumn": "JobPostTempID",
+            "sourceProviderType": "int",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "Revenue",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "Job_Post[ConnectsNum]*1.5",
+            "isDataTypeInferred": true,
+            "lineageTag": "f35fc5e8-fb0e-4604-b90a-1c94343efe17",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "AverageHourlyRate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": "(Job_Post[HourlyStartRate]+Job_Post[HourlyEndRate])/2",
+            "isDataTypeInferred": true,
+            "lineageTag": "eb3d1186-a84b-4501-8dac-31d64ab95ab3",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "JobFromHighRating",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "46b64ed7-d4c7-43e6-be69-45fca04b6aa3",
+            "sourceColumn": "JobFromHighRating",
+            "sourceProviderType": "int",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "ec7758dc-ca94-43e4-971f-fcee761a9d75",
+        "partitions": [
+          {
+            "name": "Job_Post",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    dbo_Job_Post = Source{[Schema=\"dbo\",Item=\"Job_Post\"]}[Data]",
+                "in",
+                "    dbo_Job_Post"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Skill",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "SkillID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isNullable": false,
+            "lineageTag": "09a9ac63-0c6a-42ff-8fbd-bc8591172336",
+            "sourceColumn": "SkillID",
+            "sourceProviderType": "int",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SkillName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "0e18ff24-1ab3-4a38-8ba1-773bd349666a",
+            "sourceColumn": "SkillName",
+            "sourceProviderType": "nvarchar(250)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "a201d81b-7fec-423a-be71-96b8207751e6",
+        "partitions": [
+          {
+            "name": "Skill",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    dbo_Skill = Source{[Schema=\"dbo\",Item=\"Skill\"]}[Data]",
+                "in",
+                "    dbo_Skill"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Working_Hour",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "WorkingHourID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "d71fd422-6a70-4ca0-bb27-bda269c539e3",
+            "sourceColumn": "WorkingHourID",
+            "sourceProviderType": "varchar(10)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "WorkingHourName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isNullable": false,
+            "lineageTag": "fa5abee7-9f71-4932-b0ff-9c24d61f9fd3",
+            "sourceColumn": "WorkingHourName",
+            "sourceProviderType": "nvarchar(250)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "783d89ef-3168-4357-961e-356b3a4f3ee3",
+        "partitions": [
+          {
+            "name": "Working_Hour",
+            "mode": "directQuery",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    dbo_Working_Hour = Source{[Schema=\"dbo\",Item=\"Working_Hour\"]}[Data]",
+                "in",
+                "    dbo_Working_Hour"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Calendar",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "62d72d506d16430eac11a31bb349cbb6"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd/mm/yyyy",
+            "isDataTypeInferred": true,
+            "isKey": true,
+            "isNameInferred": true,
+            "lineageTag": "a6522e0a-bb70-4147-a62c-ebe4094080ea",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "ec528301-f7a5-4206-aeb5-d2e246e9f995",
+            "sourceColumn": "[Year]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "ef0bd23e-c9d0-4307-af28-e2aa680c43b3",
+            "sourceColumn": "[Month]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "d8457715-cb45-4827-b153-cf2e8e7ffb7b",
+            "sourceColumn": "[Quarter]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "DayOfWeek",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "3195d701-5141-494b-b3ec-c711495b2723",
+            "sourceColumn": "[DayOfWeek]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "QuarterName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "a814ed60-ab37-4276-98f6-8c1936c0ef62",
+            "sourceColumn": "[QuarterName]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "MonthName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "3fd007bc-6f6d-487d-ac6a-dbbfdd2d4e74",
+            "sourceColumn": "[MonthName]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "DayOfWeekName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "1ef2ffbb-3c36-4e98-b803-f660a98482f1",
+            "sourceColumn": "[DayOfWeekName]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "dataCategory": "Time",
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "c7ed5e5b-ecc9-4ef1-b579-d5e669cf68f9",
+                "ordinal": 0
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "b973000d-78cb-48f1-8cf7-a850a3fdd63a",
+                "ordinal": 1
+              },
+              {
+                "name": "Date",
+                "column": "Date",
+                "lineageTag": "2eda07a9-a3c7-408e-bbc4-58f7d33d426d",
+                "ordinal": 2
+              }
+            ],
+            "lineageTag": "31fea40e-58c3-4ef9-b288-e41c078c07e1"
+          }
+        ],
+        "lineageTag": "62af79d9-4117-4eae-a704-c3cb35e32672",
+        "partitions": [
+          {
+            "name": "Calendar",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "    VAR _date = CALENDAR(MIN(Job_Post[PostedDate]),MAX(Job_Post[PostedDate]))",
+                "    RETURN",
+                "    ADDCOLUMNS(",
+                "        _date,",
+                "        \"Year\", Year([Date]),",
+                "        \"Month\", Month([Date]),",
+                "        \"Quarter\", QUARTER([Date]),",
+                "        \"DayOfWeek\", FORMAT([Date],\"ddd\"),",
+                "        \"QuarterName\", QUARTER([Date]) & \"-\" & YEAR([Date]),",
+                "        \"MonthName\", FORMAT([Date],\"mmm\") & \"-\" & YEAR([Date]),",
+                "        \"DayOfWeekName\", FORMAT([Date],\"ddd\")",
+                "    )"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

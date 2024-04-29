@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "MasterProject_Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "86c97577-2250-40e0-9844-20ee8d99fab8"
+  }
+}
