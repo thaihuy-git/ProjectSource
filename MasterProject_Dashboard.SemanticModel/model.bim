@@ -8,7 +8,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.128.952.0 (24.04)"
+        "value": "2.128.1177.0 (24.04)"
       },
       {
         "name": "PBI_QueryOrder",
@@ -286,7 +286,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    Source = Sql.Database(\"vmi1841064.contaboserver.net,1433\", \"MasterProject_Upwork\"),",
                 "    dbo_Country = Source{[Schema=\"dbo\",Item=\"Country\"]}[Data]",
                 "in",
                 "    dbo_Country"
@@ -344,7 +344,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    Source = Sql.Database(\"vmi1841064.contaboserver.net,1433\", \"MasterProject_Upwork\"),",
                 "    dbo_Experience_Level = Source{[Schema=\"dbo\",Item=\"Experience_Level\"]}[Data]",
                 "in",
                 "    dbo_Experience_Level"
@@ -402,7 +402,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    Source = Sql.Database(\"vmi1841064.contaboserver.net,1433\", \"MasterProject_Upwork\"),",
                 "    dbo_Job_Duration = Source{[Schema=\"dbo\",Item=\"Job_Duration\"]}[Data]",
                 "in",
                 "    dbo_Job_Duration"
@@ -475,7 +475,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    Source = Sql.Database(\"vmi1841064.contaboserver.net,1433\", \"MasterProject_Upwork\"),",
                 "    dbo_Job_Category = Source{[Schema=\"dbo\",Item=\"Job_Category\"]}[Data]",
                 "in",
                 "    dbo_Job_Category"
@@ -1101,7 +1101,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    Source = Sql.Database(\"vmi1841064.contaboserver.net,1433\", \"MasterProject_Upwork\"),",
                 "    dbo_Job_Post = Source{[Schema=\"dbo\",Item=\"Job_Post\"]}[Data]",
                 "in",
                 "    dbo_Job_Post"
@@ -1160,7 +1160,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    Source = Sql.Database(\"vmi1841064.contaboserver.net,1433\", \"MasterProject_Upwork\"),",
                 "    dbo_Skill = Source{[Schema=\"dbo\",Item=\"Skill\"]}[Data]",
                 "in",
                 "    dbo_Skill"
@@ -1218,7 +1218,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Sql.Database(\"119.42.53.84,1433\", \"MasterProject_Upwork\"),",
+                "    Source = Sql.Database(\"vmi1841064.contaboserver.net,1433\", \"MasterProject_Upwork\"),",
                 "    dbo_Working_Hour = Source{[Schema=\"dbo\",Item=\"Working_Hour\"]}[Data]",
                 "in",
                 "    dbo_Working_Hour"
